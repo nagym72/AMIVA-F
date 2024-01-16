@@ -15,15 +15,15 @@ with disease in FLNc.
 
 AMIVA-F requires the following packages installed:
 
-1) Pymol open source (can be installed through conda e.g ``` conda install conda-forge::pymol-open-source```)
-2) Scikit-learn 1.3.2 (can be installed through pypi e.g ``` pip install -U scikit-learn```)
-3) Biopython (can be installed through pypi e.g ``` pip install biopython```)
-4) Pandas (can be installed through pypi e.g ``` pip install pandas```)
-5) Numpy (can be installed through pypi e.g ``` pip install numpy```)
-6) Freesasa (can be installed through pypi e.g ``` pip install freesasa```)
-7) joblib (can be installed through pypi e.g ``` pip install joblib```)
-8) Shap (can be installed through pypi e.g ``` pip install shap```)
-9) Matplotlib (can be installed through pypi e.g ``` pip install -U matplotlib```)
+1) Pymol open source can be installed through conda e.g ``` conda install conda-forge::pymol-open-source```
+2) Scikit-learn 1.3.2 can be installed through pypi e.g ``` pip install scikit-learn==1.3.2```
+3) Biopython can be installed through pypi e.g ``` pip install biopython```
+4) Pandas can be installed through pypi e.g ``` pip install pandas```
+5) Numpy can be installed through pypi e.g ``` pip install numpy```
+6) Freesasa can be installed through pypi e.g ``` pip install freesasa```
+7) Joblib can be installed through pypi e.g ``` pip install joblib```
+8) Shap can be installed through pypi e.g ``` pip install shap```
+9) Matplotlib can be installed through pypi e.g ``` pip install -U matplotlib```
 
 This was tested for Python 3.8 and its important to use Scikit-learn 1.3.2 because AMIVA-F.joblib is otherwise not readable!
 
