@@ -17,6 +17,7 @@ warnings.filterwarnings("ignore", category=UserWarning, module="sklearn")
 import subprocess
 import argparse
 from joblib import load
+import os
 
 
 class PDB_setup:
@@ -38,7 +39,7 @@ class PDB_setup:
 
         for key, value in kwargs.items():
             setattr(self, key, value)
-            print(f"{key} = {value}")
+            #print(f"{key} = {value}")
 
         if len(self.wt) == 1 or len(self.mut) == 1:
             # we try to convert it to standard input.
@@ -47,6 +48,7 @@ class PDB_setup:
             except:
                 raise ValueError(f"Input: {self.wt} or {self.mut} could not be converted")
 
+        self.energy_file = None
         self.input_check_bool = None
         self.dhydrophob = None
         self.weight_change = None
@@ -143,7 +145,15 @@ class PDB_setup:
 
         if round(max_probability_value, 2) < 0.55:
             print(f"Warning! Prediction was very close and confidence is small.")
-
+        if not self.energy_file:
+            print("\n")
+            print("-"*80)
+            print(f"The prediction is made without KORPM and therefore unreliable!")
+            print("-" *80)
+            print(f"In order to fix this issue: Download the korp6Dv1.bin required from:\nhttps://chaconlab.org/modeling/korp/down-korp/item/korp-linux \nif you run Linux,"
+                  f"else:\nhttps://chaconlab.org/modeling/korp/korp-tuto \nand then extract the required File (331MB~).\n"
+                  f"Put the file in ./AMIVA_F/Korpm/pot/korp6Dv1.bin and rerun the prediction again!")
+            print("-" *80)
         # feature_contribution_dict = dict(zip(X.columns, individual_feature_contributions))
         # sorted_contributions = sorted(feature_contribution_dict.items(), key=lambda x: x[1], reverse=True)
 
@@ -154,9 +164,9 @@ class PDB_setup:
         wt_clashes = 0 #self.clash_wt[1] #this should always be 0.
         mut_clashes = self.clash_mut[1]
 
-        print(f"{wt_clashes=}")
-        print(f"{mut_clashes=}")
-        print(f"{np.abs(wt_clashes - mut_clashes)=}")
+        #print(f"{wt_clashes=}")
+        #print(f"{mut_clashes=}")
+        #print(f"{np.abs(wt_clashes - mut_clashes)=}")
         return np.abs(wt_clashes - mut_clashes)
 
     def check_input(self, pdbfile, pos, aa_wt):
@@ -614,6 +624,20 @@ class PDB_setup:
             print("Korpm did not work")
             print(e)
 
+        try:
+            file_path = './Korpm/pot/korp6Dv1.bin'
+	
+            if os.path.exists(file_path):
+                self.energy_file = True
+            else:
+                print("*"*80)
+                print("ATTENTION! THERE IS NO ENERGY FILE FOR KORPM.\nALL PREDICTIONS MADE ARE LESS RELIABLE WITHOUT PROPER ENERGY FILE.")
+                print("*"*80)
+                print("\n")
+                self.energy_file = False
+        except:
+            pass
+
         with open("./Korpm/testresult_out.txt", "r") as fh_result:
             for lines in fh_result:
                 lines = lines.replace("\n", "")
@@ -1055,10 +1079,10 @@ def main():
         if visualize == "yes" or visualize == "True" or visualize == "TRUE":
             visualize = True
 
-        print(f'Wildtype: {wildtype}')
-        print(f'Position: {position}')
-        print(f'Mutation: {mutation}')
-        print(f'Visualization Type: {visualize}')
+        #print(f'Wildtype: {wildtype}')
+        #print(f'Position: {position}')
+        #print(f'Mutation: {mutation}')
+        #print(f'Visualization Type: {visualize}')
 
     except Exception as e:
         print(e)
@@ -1077,6 +1101,9 @@ def main():
 
     # individual info about the features contributing to the individual prediction.
     if visualize == True:
+        PDB_object.visualize_indiviual_contributions()
+    else:
+        #we still want to see it now.
         PDB_object.visualize_indiviual_contributions()
 
 
