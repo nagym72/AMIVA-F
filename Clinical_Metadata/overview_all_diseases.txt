@@ -1,0 +1,257 @@
+
+Domain: ABD
+Associated Disease Keyword: Other Cardiomyopathies, Occurences: 15
+Associated Disease Keyword: Myofibrillar myopathy 5, Occurences: 22
+Associated Disease Keyword: Distal myopathy with posterior leg and anterior hand involvement, Occurences: 26
+Associated Disease Keyword: Dilated Cardiomyopathy, Dominant, Occurences: 17
+Associated Disease Keyword: Hypertrophic cardiomyopathy 26, Occurences: 23
+Associated Disease Keyword: neuromuscular disorder (NMD), Occurences: 1
+Associated Disease Keyword: Desmin-related myofibrillar myopathy, Occurences: 2
+Associated Disease Keyword: myopathy (MYOP), Occurences: 4
+Associated Disease Keyword: dystrophy, muscular, limb-girdle (LGMD), Occurences: 3
+Associated Disease Keyword: Cardiomyopathy, Occurences: 1
+
+Domain: 1
+Associated Disease Keyword: Myofibrillar myopathy 5, Occurences: 12
+Associated Disease Keyword: Distal myopathy with posterior leg and anterior hand involvement, Occurences: 11
+Associated Disease Keyword: Hypertrophic cardiomyopathy 26, Occurences: 11
+Associated Disease Keyword: Dilated Cardiomyopathy, Dominant, Occurences: 9
+Associated Disease Keyword: Other Cardiomyopathies, Occurences: 5
+
+Domain: 2
+Associated Disease Keyword: Myofibrillar myopathy 5, Occurences: 27
+Associated Disease Keyword: Distal myopathy with posterior leg and anterior hand involvement, Occurences: 27
+Associated Disease Keyword: Hypertrophic cardiomyopathy 26, Occurences: 27
+Associated Disease Keyword: Dilated Cardiomyopathy, Dominant, Occurences: 22
+Associated Disease Keyword: Other Cardiomyopathies, Occurences: 14
+Associated Disease Keyword: cancer, breast, Occurences: 1
+Associated Disease Keyword: dystrophy, muscular, limb-girdle (LGMD), Occurences: 2
+Associated Disease Keyword: Cardiomyopathy, Occurences: 1
+Associated Disease Keyword: Inborn genetic diseases, Occurences: 1
+Associated Disease Keyword: Primary dilated cardiomyopathy, Occurences: 1
+
+Domain: 3
+Associated Disease Keyword: Dilated Cardiomyopathy, Dominant, Occurences: 22
+Associated Disease Keyword: Distal myopathy with posterior leg and anterior hand involvement, Occurences: 24
+Associated Disease Keyword: Myofibrillar myopathy 5, Occurences: 24
+Associated Disease Keyword: Hypertrophic cardiomyopathy 26, Occurences: 24
+Associated Disease Keyword: Other Cardiomyopathies, Occurences: 15
+Associated Disease Keyword: myopathy, inclusion body (IBM), Occurences: 1
+Associated Disease Keyword: Cardiomyopathy, Occurences: 3
+
+Domain: 4
+Associated Disease Keyword: Other Cardiomyopathies, Occurences: 7
+Associated Disease Keyword: Myofibrillar myopathy 5, Occurences: 15
+Associated Disease Keyword: Hypertrophic cardiomyopathy 26, Occurences: 14
+Associated Disease Keyword: Dilated Cardiomyopathy, Dominant, Occurences: 12
+Associated Disease Keyword: Distal myopathy with posterior leg and anterior hand involvement, Occurences: 15
+Associated Disease Keyword: myopathy (MYOP), Occurences: 1
+
+Domain: 5
+Associated Disease Keyword: Dilated Cardiomyopathy, Dominant, Occurences: 23
+Associated Disease Keyword: Distal myopathy with posterior leg and anterior hand involvement, Occurences: 25
+Associated Disease Keyword: Myofibrillar myopathy 5, Occurences: 25
+Associated Disease Keyword: Hypertrophic cardiomyopathy 26, Occurences: 26
+Associated Disease Keyword: Other Cardiomyopathies, Occurences: 19
+Associated Disease Keyword: dystrophy, muscular, limb-girdle (LGMD), Occurences: 3
+Associated Disease Keyword: myopathy, inclusion body (IBM), Occurences: 1
+Associated Disease Keyword: dementia, frontotemporal (FTD), Occurences: 1
+
+Domain: 6
+Associated Disease Keyword: Dilated Cardiomyopathy, Dominant, Occurences: 14
+Associated Disease Keyword: Myofibrillar myopathy 5, Occurences: 19
+Associated Disease Keyword: Distal myopathy with posterior leg and anterior hand involvement, Occurences: 19
+Associated Disease Keyword: Hypertrophic cardiomyopathy 26, Occurences: 20
+Associated Disease Keyword: Other Cardiomyopathies, Occurences: 10
+Associated Disease Keyword: dystrophy, muscular, limb-girdle (LGMD), Occurences: 1
+
+Domain: 7
+Associated Disease Keyword: Distal myopathy with posterior leg and anterior hand involvement, Occurences: 17
+Associated Disease Keyword: Myofibrillar myopathy 5, Occurences: 17
+Associated Disease Keyword: Hypertrophic cardiomyopathy 26, Occurences: 17
+Associated Disease Keyword: Dilated Cardiomyopathy, Dominant, Occurences: 15
+Associated Disease Keyword: Other Cardiomyopathies, Occurences: 13
+Associated Disease Keyword: myopathy, myofibrillar (MFM, myopathy, inclusion body, type 1 (IBM-1)), Occurences: 1
+
+Domain: 8
+Associated Disease Keyword: Other Cardiomyopathies, Occurences: 9
+Associated Disease Keyword: Dilated Cardiomyopathy, Dominant, Occurences: 13
+Associated Disease Keyword: Distal myopathy with posterior leg and anterior hand involvement, Occurences: 16
+Associated Disease Keyword: Myofibrillar myopathy 5, Occurences: 16
+Associated Disease Keyword: Hypertrophic cardiomyopathy 26, Occurences: 16
+Associated Disease Keyword: autism, Occurences: 2
+
+Domain: 9
+Associated Disease Keyword: Myofibrillar myopathy 5, Occurences: 10
+Associated Disease Keyword: Hypertrophic cardiomyopathy 26, Occurences: 11
+Associated Disease Keyword: Dilated Cardiomyopathy, Dominant, Occurences: 10
+Associated Disease Keyword: Distal myopathy with posterior leg and anterior hand involvement, Occurences: 10
+Associated Disease Keyword: Other Cardiomyopathies, Occurences: 10
+Associated Disease Keyword: Cardiomyopathy, Occurences: 2
+Associated Disease Keyword: Inborn genetic diseases, Occurences: 1
+
+Domain: 10
+Associated Disease Keyword: Hypertrophic cardiomyopathy 26, Occurences: 31
+Associated Disease Keyword: Distal myopathy with posterior leg and anterior hand involvement, Occurences: 26
+Associated Disease Keyword: Myofibrillar myopathy 5, Occurences: 30
+Associated Disease Keyword: Dilated Cardiomyopathy, Dominant, Occurences: 21
+Associated Disease Keyword: Inborn genetic diseases, Occurences: 4
+Associated Disease Keyword: Abnormality of the musculature, Occurences: 4
+Associated Disease Keyword: myopathy, myofibrillar (MFM, myopathy, inclusion body, type 1 (IBM-1)), Occurences: 2
+Associated Disease Keyword: myopathy (MYOP), Occurences: 1
+Associated Disease Keyword: arthrogryposis, distal (DA), Occurences: 1
+Associated Disease Keyword: Other Cardiomyopathies, Occurences: 14
+Associated Disease Keyword: myopathy, inclusion body (IBM), Occurences: 1
+
+Domain: 11
+Associated Disease Keyword: Dilated Cardiomyopathy, Dominant, Occurences: 21
+Associated Disease Keyword: Distal myopathy with posterior leg and anterior hand involvement, Occurences: 25
+Associated Disease Keyword: Hypertrophic cardiomyopathy 26, Occurences: 25
+Associated Disease Keyword: Myofibrillar myopathy 5, Occurences: 25
+Associated Disease Keyword: Other Cardiomyopathies, Occurences: 17
+Associated Disease Keyword: Cardiomyopathy, Occurences: 1
+
+Domain: 12
+Associated Disease Keyword: Other Cardiomyopathies, Occurences: 14
+Associated Disease Keyword: Hypertrophic cardiomyopathy 26, Occurences: 15
+Associated Disease Keyword: Myofibrillar myopathy 5, Occurences: 15
+Associated Disease Keyword: Distal myopathy with posterior leg and anterior hand involvement, Occurences: 15
+Associated Disease Keyword: Dilated Cardiomyopathy, Dominant, Occurences: 13
+Associated Disease Keyword: dementia, frontotemporal (FTD), Occurences: 1
+Associated Disease Keyword: dystrophy, muscular, limb-girdle (LGMD), Occurences: 2
+Associated Disease Keyword: Primary dilated cardiomyopathy, Occurences: 1
+Associated Disease Keyword: Inborn genetic diseases, Occurences: 1
+
+Domain: 13
+Associated Disease Keyword: Dilated Cardiomyopathy, Dominant, Occurences: 15
+Associated Disease Keyword: Myofibrillar myopathy 5, Occurences: 18
+Associated Disease Keyword: Hypertrophic cardiomyopathy 26, Occurences: 17
+Associated Disease Keyword: Distal myopathy with posterior leg and anterior hand involvement, Occurences: 18
+Associated Disease Keyword: Other Cardiomyopathies, Occurences: 11
+Associated Disease Keyword: neuromuscular disorder (NMD), Occurences: 1
+Associated Disease Keyword: Cardiomyopathy, Occurences: 1
+
+Domain: 14
+Associated Disease Keyword: Cardiomyopathy, familial restrictive, 5, Occurences: 2
+Associated Disease Keyword: Myofibrillar myopathy 5, Occurences: 21
+Associated Disease Keyword: Hypertrophic cardiomyopathy 26, Occurences: 25
+Associated Disease Keyword: Dilated Cardiomyopathy, Dominant, Occurences: 19
+Associated Disease Keyword: Distal myopathy with posterior leg and anterior hand involvement, Occurences: 21
+Associated Disease Keyword: FLNC-Related Disorders, Occurences: 2
+Associated Disease Keyword: Cardiomyopathy, Occurences: 2
+Associated Disease Keyword: cardiomyopathy, restrictive (RCM), Occurences: 1
+Associated Disease Keyword: Other Cardiomyopathies, Occurences: 14
+Associated Disease Keyword: dementia, frontotemporal (FTD), Occurences: 2
+Associated Disease Keyword: dystrophy, muscular, limb-girdle (LGMD), Occurences: 1
+Associated Disease Keyword: Restrictive cardiomyopathy, Occurences: 1
+
+Domain: 15
+Associated Disease Keyword: Other Cardiomyopathies, Occurences: 18
+Associated Disease Keyword: Myofibrillar myopathy 5, Occurences: 21
+Associated Disease Keyword: Dilated Cardiomyopathy, Dominant, Occurences: 18
+Associated Disease Keyword: Hypertrophic cardiomyopathy 26, Occurences: 24
+Associated Disease Keyword: Distal myopathy with posterior leg and anterior hand involvement, Occurences: 21
+Associated Disease Keyword: myopathy (MYOP), Occurences: 4
+Associated Disease Keyword: Primary dilated cardiomyopathy, Occurences: 1
+Associated Disease Keyword: Inborn genetic diseases, Occurences: 1
+
+Domain: 16
+Associated Disease Keyword: Dilated Cardiomyopathy, Dominant, Occurences: 21
+Associated Disease Keyword: Myofibrillar myopathy 5, Occurences: 29
+Associated Disease Keyword: Hypertrophic cardiomyopathy 26, Occurences: 29
+Associated Disease Keyword: Distal myopathy with posterior leg and anterior hand involvement, Occurences: 29
+Associated Disease Keyword: Other Cardiomyopathies, Occurences: 18
+Associated Disease Keyword: myopathy (MYOP), Occurences: 2
+Associated Disease Keyword: dystrophy, muscular, limb-girdle (LGMD), Occurences: 1
+Associated Disease Keyword: dystrophy, muscular, Duchenne type (DMD), Occurences: 1
+Associated Disease Keyword: Cardiomyopathy, Occurences: 1
+Associated Disease Keyword: Primary dilated cardiomyopathy, Occurences: 1
+
+Domain: 17
+Associated Disease Keyword: Other Cardiomyopathies, Occurences: 13
+Associated Disease Keyword: Distal myopathy with posterior leg and anterior hand involvement, Occurences: 12
+Associated Disease Keyword: Myofibrillar myopathy 5, Occurences: 12
+Associated Disease Keyword: Hypertrophic cardiomyopathy 26, Occurences: 12
+Associated Disease Keyword: Dilated Cardiomyopathy, Dominant, Occurences: 12
+Associated Disease Keyword: bowel disease, inflammatory (IBD), Occurences: 1
+Associated Disease Keyword: dystrophy, muscular, limb-girdle (LGMD), Occurences: 1
+Associated Disease Keyword: Cardiomyopathy, Occurences: 2
+
+Domain: 18
+Associated Disease Keyword: Dilated Cardiomyopathy, Dominant, Occurences: 12
+Associated Disease Keyword: Distal myopathy with posterior leg and anterior hand involvement, Occurences: 14
+Associated Disease Keyword: Myofibrillar myopathy 5, Occurences: 14
+Associated Disease Keyword: Hypertrophic cardiomyopathy 26, Occurences: 15
+Associated Disease Keyword: Other Cardiomyopathies, Occurences: 10
+Associated Disease Keyword: Hypertrophic cardiomyopathy, Occurences: 1
+Associated Disease Keyword: dystrophy, muscular, limb-girdle (LGMD), Occurences: 1
+Associated Disease Keyword: Restrictive cardiomyopathy, Occurences: 1
+
+Domain: 19
+Associated Disease Keyword: Other Cardiomyopathies, Occurences: 6
+Associated Disease Keyword: Dilated Cardiomyopathy, Dominant, Occurences: 6
+Associated Disease Keyword: Distal myopathy with posterior leg and anterior hand involvement, Occurences: 7
+Associated Disease Keyword: Myofibrillar myopathy 5, Occurences: 7
+Associated Disease Keyword: Hypertrophic cardiomyopathy 26, Occurences: 7
+
+Domain: 20
+Associated Disease Keyword: Cardiomyopathy, familial restrictive, 5, Occurences: 2
+Associated Disease Keyword: cardiomyopathy, restrictive (RCM), Occurences: 1
+Associated Disease Keyword: Other Cardiomyopathies, Occurences: 31
+Associated Disease Keyword: Distal myopathy with posterior leg and anterior hand involvement, Occurences: 30
+Associated Disease Keyword: Dilated Cardiomyopathy, Dominant, Occurences: 29
+Associated Disease Keyword: Hypertrophic cardiomyopathy 26, Occurences: 31
+Associated Disease Keyword: Myofibrillar myopathy 5, Occurences: 29
+Associated Disease Keyword: Cardiomyopathy, Occurences: 1
+Associated Disease Keyword: Restrictive cardiomyopathy, Occurences: 1
+Associated Disease Keyword: myopathy (MYOP), Occurences: 1
+Associated Disease Keyword: cardiomyopathy, ventricular, right, arrhythmogenic (ARVC), Occurences: 1
+Associated Disease Keyword: Inborn genetic diseases, Occurences: 1
+
+Domain: 21
+Associated Disease Keyword: Other Cardiomyopathies, Occurences: 19
+Associated Disease Keyword: Dilated Cardiomyopathy, Dominant, Occurences: 17
+Associated Disease Keyword: Distal myopathy with posterior leg and anterior hand involvement, Occurences: 19
+Associated Disease Keyword: Myofibrillar myopathy 5, Occurences: 19
+Associated Disease Keyword: Hypertrophic cardiomyopathy 26, Occurences: 19
+Associated Disease Keyword: myopathy (MYOP), Occurences: 1
+Associated Disease Keyword: myopathy, inclusion body (IBM), Occurences: 1
+Associated Disease Keyword: Cardiomyopathy, Occurences: 2
+Associated Disease Keyword: Primary familial hypertrophic cardiomyopathy, Occurences: 1
+
+Domain: 22
+Associated Disease Keyword: dystrophy, muscular, limb-girdle (LGMD), Occurences: 2
+Associated Disease Keyword: Dilated Cardiomyopathy, Dominant, Occurences: 20
+Associated Disease Keyword: Distal myopathy with posterior leg and anterior hand involvement, Occurences: 25
+Associated Disease Keyword: Myofibrillar myopathy 5, Occurences: 25
+Associated Disease Keyword: Hypertrophic cardiomyopathy 26, Occurences: 27
+Associated Disease Keyword: Other Cardiomyopathies, Occurences: 19
+Associated Disease Keyword: myopathy (MYOP), Occurences: 1
+Associated Disease Keyword: Inborn genetic diseases, Occurences: 1
+Associated Disease Keyword: Cardiomyopathy, Occurences: 1
+
+Domain: 23
+Associated Disease Keyword: Restrictive cardiomyopathy, Occurences: 2
+Associated Disease Keyword: myopathy, myofibrillar (MFM, myopathy, inclusion body, type 1 (IBM-1)), Occurences: 1
+Associated Disease Keyword: Other Cardiomyopathies, Occurences: 2
+Associated Disease Keyword: Myofibrillar myopathy 5, Occurences: 4
+Associated Disease Keyword: Distal myopathy with posterior leg and anterior hand involvement, Occurences: 4
+Associated Disease Keyword: Hypertrophic cardiomyopathy 26, Occurences: 4
+Associated Disease Keyword: Dilated Cardiomyopathy, Dominant, Occurences: 3
+
+Domain: 24
+Associated Disease Keyword: Myofibrillar myopathy 5, Occurences: 2
+Associated Disease Keyword: Dilated Cardiomyopathy, Dominant, Occurences: 2
+Associated Disease Keyword: Distal myopathy with posterior leg and anterior hand involvement, Occurences: 2
+Associated Disease Keyword: Hypertrophic cardiomyopathy 26, Occurences: 2
+Associated Disease Keyword: Other Cardiomyopathies, Occurences: 2
+
+Domain: None
+Associated Disease Keyword: Other Cardiomyopathies, Occurences: 12
+Associated Disease Keyword: Dilated Cardiomyopathy, Dominant, Occurences: 16
+Associated Disease Keyword: Distal myopathy with posterior leg and anterior hand involvement, Occurences: 20
+Associated Disease Keyword: Myofibrillar myopathy 5, Occurences: 20
+Associated Disease Keyword: Hypertrophic cardiomyopathy 26, Occurences: 20
+Associated Disease Keyword: Cardiomyopathy, Occurences: 3
+Associated Disease Keyword: dementia, frontotemporal (FTD), Occurences: 1
+Associated Disease Keyword: dystrophy, muscular, Duchenne type (DMD), Occurences: 1
