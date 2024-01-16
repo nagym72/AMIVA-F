@@ -47,6 +47,7 @@ class PDB_setup:
             except:
                 raise ValueError(f"Input: {self.wt} or {self.mut} could not be converted")
 
+        self.input_check_bool = None
         self.dhydrophob = None
         self.weight_change = None
         self.size_change = None
@@ -109,6 +110,7 @@ class PDB_setup:
         else:
             exit(1)
 
+
     def probability_pred(self, training_feature_importance=False):
 
         AMIVA_F = self.AMIVA_F
@@ -156,6 +158,21 @@ class PDB_setup:
         print(f"{mut_clashes=}")
         print(f"{np.abs(wt_clashes - mut_clashes)=}")
         return np.abs(wt_clashes - mut_clashes)
+
+    def check_input(self, pdbfile, pos, aa_wt):
+
+        parser = PDBParser(QUIET=True)
+        with open(pdbfile, "r") as pdbfile1_0:
+            structure = parser.get_structure("FLNc", pdbfile1_0)
+            correct_atom_question = structure[0]["A"][int(pos)]
+            resnamecheck = correct_atom_question.get_resname()
+
+            """check if amino acid  entered is really amino acid at the correct position in the structure"""
+            if resnamecheck == aa_wt:
+                return 1
+            else:
+                print(f"Wrong amino acid specified in wt. Correct amino acid is: {resnamecheck}. Try again with correct wild-type amino acid")
+                return 0
 
     def mutate_pdb(self):
 
@@ -951,6 +968,12 @@ class PDB_setup:
         # Call the method and store the results
         self.pdb_file_wt_path, self.domain_info, \
             self.domain_num, self.domain_offset = self.retrieve_PDB_and_domain()
+
+        self.input_check_bool = self.check_input(pdbfile=self.pdb_file_wt_path, pos=self.pos, aa_wt=self.wt)
+
+        #check if the wt amino acid is canonical and correct.
+        if self.input_check_bool == False:
+            exit()
 
         self.dhydrophob, self.weight_change, self.size_change = self.size_x_hydro()
 
