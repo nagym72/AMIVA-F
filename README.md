@@ -112,3 +112,7 @@ We computed the absolute ddG value for each predicted mutation to capture the ef
 Example: Arginine is found to be either mutated or being inserted 4 times (3 times involved in pathological mutations and once in a benign mutation). Cost would be in this case: num_pathogenic_transitions - 2.5*num_benign_transitions = 3*1 - 2.5 * 1 = 0.5. In the absence of any transitions cost takes the default value of 0. The value of 2.5 was chosen to put more weight towards benign mutations, based on the rationale that there is an intrinsic bias towards pathogenic mutations in the databases. This is in agreement with classifications made by other predictors (https://www.science.org/doi/10.1126/science.adg7492 , https://www.nature.com/articles/s41586-021-04043-8), which claim a larger proportion of mutations to be benign. For future versions of AMIVA-F, this parameter and its computation can be fine-tuned based on additional available clinical information and might be useful for better generalization. 
 
 + Feature Importance: 0.22  
+
+## Distribution of Cardiomyopathies in FLNC within our dataset 
+
+![AMIVA-F Distribution of Cardiomyopathies in human FLNC](./Clinical_Metadata/overview_cardiomyopathies.png)
